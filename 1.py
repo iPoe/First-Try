@@ -47,6 +47,12 @@ def Menuoperaciones():
 Listacanciones = ["Mockingbird","Cleanin' Out My Closet","When I'm gone","Can Can"]
 Listaduraciones = [180,200,180,20]
 
+def MostrarListaCanciones(Listacanciones,Listaduraciones):
+    """
+    """
+    for indice in range(len(Listacanciones)):
+        print(str(indice) + " " + Listacanciones[indice]+ " " +
+              str(Listaduraciones[indice]))
 
 
 
