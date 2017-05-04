@@ -1,6 +1,3 @@
-import tkinter
-import math
-import random
 import time
 
 def Menuoperaciones():
@@ -72,6 +69,22 @@ def Borrarcancion(posicion, Listacanciones, Listaduraciones):
         print("Song deleted")
     else:
         print("Wrong position")
+
+def Reproducircancion(posicion, Listacanciones, Listaduraciones):
+    """
+    """
+    print(Listacanciones[posicion])
+    time.sleep(Listaduraciones[posicion])
+
+
+def MP3Player():
+    """
+    """
+    Menuoperaciones()
+    
+    
+MP3Player()        
+    
 
 
 
