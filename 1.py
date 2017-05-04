@@ -52,7 +52,14 @@ def MostrarListaCanciones(Listacanciones,Listaduraciones):
     """
     for indice in range(len(Listacanciones)):
         print(str(indice) + " " + Listacanciones[indice]+ " " +
-              str(Listaduraciones[indice]))
+              str(Listaduraciones[indice])
+
+def Agregarcancion(nombre,duracion,Listacanciones,Listaduraciones):
+    """
+    """
+    Listacanciones.append(nombre)
+    Listaduraciones.append(duracion)
+    print("Song added!")
 
 
 
