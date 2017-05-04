@@ -41,6 +41,14 @@ def Menuoperaciones():
                 if(op == 5):
                     exit()
 
+            else:
+                print("Error")
+
+Listacanciones = ["Mockingbird","Cleanin' Out My Closet","When I'm gone","Can Can"]
+Listaduraciones = [180,200,180,20]
+
+
+
 
 
 
