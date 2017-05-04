@@ -63,6 +63,18 @@ def Agregarcancion(nombre,duracion,Listacanciones,Listaduraciones):
 
 
 
+def Borrarcancion(posicion, Listacanciones, Listaduraciones):
+    """
+    """
+    if(posicion>=0 and posicion < len(Listacanciones)):
+        Listacanciones.pop(posicion)
+        Listaduraciones.pop(posicion)
+        print("Song deleted")
+    else:
+        print("Wrong position")
+
+
+
 
 
 
